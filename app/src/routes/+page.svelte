@@ -172,6 +172,7 @@
 
   :global(body) {
    overflow-y: hidden;
+   overflow-x: hidden;
   }
 
   main {
@@ -184,7 +185,7 @@
   }
 
   .app {
-    margin: 16px;
+    margin: 0px 16px 16px 16px;
     flex: 1;
     display: flex;
     flex-direction: row;
